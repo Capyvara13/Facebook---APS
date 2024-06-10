@@ -1,0 +1,100 @@
+body {
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    margin: 0;
+}
+#recentes {
+    width: 36vw;
+    height: 100vh;
+}
+#login {
+    width: 36vw;
+    height: 100vh;
+}
+#marca {
+    color: #0866ff;
+    font-size: 6vh;
+}
+#recentes p {
+    position: relative;
+    top: 30vh;
+}
+#recentes h1 {
+    position: relative;
+    top: 30vh;
+}
+.contas {
+    height: 30vh;
+    width:  12vw;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+#conta1 {
+    background-color: #ffffff;
+    border: 0.1vw solid gray;
+    position: relative;
+    top: 15vw;
+}
+#conta2 {
+    position: relative;
+    left: 15vw;
+    border: 0.1vw solid gray;
+    background-color: #ffffff;
+}
+#form {
+    background-color: #ffffff;
+}
+#conta1 img {
+    height: 25vh;
+    width:  12vw;
+    border-radius: 1vw 1vw 0 0;
+    margin: 0;
+}
+#conta1 h2 {
+    margin: 0;
+    margin-left: 4vw;
+}
+#conta2 h2 {
+    margin: 0;
+    margin-left: 0.4vw;
+    color: #0866ff;
+}
+#imgfalso {
+    background-color: #f0f2f5;
+    height: 25vh;
+    width:  12vw;
+    border-radius: 1vw 1vw 0 0;
+    margin: 0;
+}
+#circruz {
+    background-color: #0866ff;
+    height: 9vh;
+    width: 4.5vw;
+    border-radius: 50%;
+    margin-left: 7.4vh;
+    position: relative;
+    top: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cruz {
+    background-color: white;
+    border-radius: 1vw;
+    position: fixed;
+}
+#cruz-v {
+    width: 3.5vw;
+    height: 1.5vh;
+}
+#cruz-h {
+    width: 0.7vw;
+    height: 7vh;
+}
