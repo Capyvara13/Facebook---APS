@@ -31,10 +31,12 @@ h1 {
 #recentes p {
     position: relative;
     top: 30vh;
+    font-size: 3vh;
 }
 #recentes h1 {
     position: relative;
     top: 30vh;
+    font-size: 8vh;
 }
 .contas {
     height: 30vh;
@@ -45,12 +47,13 @@ h1 {
 #conta1 {
     background-color: #ffffff;
     border: 0.1vw solid gray;
-    position: relative;
-    top: 15vw;
+    position: fixed;
+    top: 27vw;
 }
 #conta2 {
-    position: relative;
-    left: 15vw;
+    position: fixed;
+    top: 58.2vh;
+    left: 30vw;
     border: 0.1vw solid gray;
     background-color: #ffffff;
 }
@@ -66,11 +69,13 @@ h1 {
 #conta1 h2 {
     margin: 0;
     margin-left: 4vw;
+    font-size: 3vh;
 }
 #conta2 h2 {
     margin: 0;
     margin-left: 0.4vw;
     color: #0866ff;
+    font-size: 3vh;
 }
 #imgfalso {
     background-color: #f0f2f5;
@@ -121,8 +126,8 @@ h1 {
     color: #808080;
 }
 input#email-tel:focus, input#password:focus {
-    background-color:  #ffd208;
-    border-color: #0866ff;
+    border:  0.3vh solid #0866ff;
+    outline: none;
 }
 #password {
     margin-top: 1vh;
