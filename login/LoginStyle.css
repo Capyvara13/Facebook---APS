@@ -15,7 +15,7 @@ h1 {
     height: 100vh;
     position: fixed;
     left: 15vw;
-    top: -3vh;
+    top: -15vh;
 }
 #login {
     width: 36vw;
@@ -48,11 +48,11 @@ h1 {
     background-color: #ffffff;
     border: 0.1vw solid gray;
     position: fixed;
-    top: 27vw;
+    top: 20vw;
 }
 #conta2 {
     position: fixed;
-    top: 58.2vh;
+    top: 43.2vh;
     left: 30vw;
     border: 0.1vw solid gray;
     background-color: #ffffff;
@@ -89,9 +89,9 @@ h1 {
     height: 9vh;
     width: 4.5vw;
     border-radius: 50%;
-    margin-left: 7.4vh;
     position: relative;
     top: 8vh;
+    left: 3.7vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,4 +131,42 @@ input#email-tel:focus, input#password:focus {
 }
 #password {
     margin-top: 1vh;
+}
+#form {
+    position: fixed;
+    top: 30vh;
+    height: 35vh;
+    width: 34.7vw;
+}
+#entrar {
+    background-color: #0866ff;
+    color: #ffffff;
+    width: 98%;
+    height: 6vh;
+    font-size: 4vh;
+    margin-top: 2vh;
+    border-radius: 0.87vw;
+    border: none;
+}
+#entrar:hover {
+    background-color: #1877f2;
+    color: #ffffff;
+    cursor: pointer;
+}
+#link-forgot-password {
+    position: relative;
+    left: 13vw;
+    color: #0866ff;
+}
+#new-account {
+    background-color: #42b72a;
+    height: 8vh;
+    width: 16vw;
+    color: #ffffff;
+    border: none;
+    font-size: 4vh;
+    border-radius: 0.5vw;
+    position: relative;
+    left: 9.8vw;
+    cursor: pointer;
 }
