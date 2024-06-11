@@ -13,10 +13,16 @@ h1 {
 #recentes {
     width: 36vw;
     height: 100vh;
+    position: fixed;
+    left: 15vw;
+    top: -3vh;
 }
 #login {
     width: 36vw;
     height: 100vh;
+    position: fixed;
+    right: 15vw;
+    top: 43vh;
 }
 #marca {
     color: #0866ff;
@@ -97,4 +103,27 @@ h1 {
 #cruz-h {
     width: 0.7vw;
     height: 7vh;
+}
+/*LOGIN*/
+#form {
+    padding: 1vw;
+    border-radius: 1vw;
+}
+#email-tel, #password {
+    border-radius: 0.2vw;
+    border: 0.1vw solid #808080;
+    width: 33.6vw;
+    height: 5vh;
+    padding-left: 0.9vw;
+    font-size: 2.2vh;
+}
+#email-tel::placeholder,  #password::placeholder {
+    color: #808080;
+}
+input#email-tel:focus, input#password:focus {
+    background-color:  #ffd208;
+    border-color: #0866ff;
+}
+#password {
+    margin-top: 1vh;
 }
