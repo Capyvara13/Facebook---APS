@@ -142,3 +142,12 @@ body {
     position: relative;
     left: 22vw;
 }
+#botao2 {
+    position: fixed;
+    top: 30vh;
+}
+/*Botão 2*/
+#textbox2 p {
+    font-size: 3vh;
+    color: #0866ff;
+}

@@ -2,6 +2,9 @@ var menu = document.getElementById("menu");
 var botão1 = document.getElementById("button1");
 var text1 = document.getElementById("button-p1");
 var textBox1 = document.getElementById("textbox1")
+var botão2 = document.getElementById("button2")
+var text1 = document.getElementById("button-p2")
+var textBox1 = document.getElementById("textbox2")
 
 botão1.addEventListener('mouseover', function() {
     menu.classList.add("BarraVai");
@@ -13,6 +16,7 @@ botão1.addEventListener('mouseover', function() {
     textBox1.classList.add("overflowOn")
     textBox1.classList.remove("overflowOff")
     textBox1.style.width = "16.5vw"
+    //Segudno botão
 });
 
 botão1.addEventListener('mouseout', function() {
@@ -25,4 +29,5 @@ botão1.addEventListener('mouseout', function() {
     textBox1.classList.add("overflowOff")
     textBox1.classList.remove("overflowOn")
     textBox1.style.width = "8.5vw"
+    //Segundo botão
 });
