@@ -50,11 +50,12 @@ body {
     top: 10vh;
 }
 #textbox1 {
-    background-color: rebeccapurple;
     top: 10vh;
+    left: 23vw;
 }
 #textbox1 p {
     font-size: 3vh;
+    color: #0866ff;
 }
 /*Animação*/
 .BarraVai {
@@ -62,6 +63,12 @@ body {
 }
 .BarraVolta {
     animation: barraParaTrás 0.2s linear;
+}
+.TextLeft {
+    animation: textLeft 0.2s linear;
+}
+.textRight {
+    animation: textRight 0.2s linear;
 }
 @keyframes barraParaOLado {
     from {
@@ -78,4 +85,28 @@ body {
     to {
         width: 14vw;
     } 
+}
+@keyframes textLeft {
+    from {
+        left: 23vw;
+    }
+    to {
+        left: 5.5vw;
+    }
+}
+@keyframes textRight {
+    from {
+        left: 5.5vw;
+    }
+    to {
+        left: 23vw;
+    }
+}
+#botao1 {
+    height: 9.5vh;
+    width: 14vw;
+    position: fixed;
+    top: 10vh;
+    left: 0;
+    border-radius: 1vw;
 }
