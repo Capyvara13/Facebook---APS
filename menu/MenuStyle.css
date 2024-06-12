@@ -91,12 +91,12 @@ body {
         left: 23vw;
     }
     to {
-        left: 5.5vw;
+        left: 0vw;
     }
 }
 @keyframes textRight {
     from {
-        left: 5.5vw;
+        left: 0vw;
     }
     to {
         left: 23vw;
@@ -109,4 +109,36 @@ body {
     top: 10vh;
     left: 0;
     border-radius: 1vw;
+}
+/*Overflow*/
+.overflowOn {
+    animation: overflowOn 0.2s linear;
+}
+.overflowOff {
+    animation: overflowOff 0.2s linear;
+}
+@keyframes overflowOn {
+    from {
+        width: 8.5vw;
+    }
+    to {
+        width: 16.5vw;
+    }
+}
+@keyframes overflowOff {
+    from {
+        width: 16.5vw;
+    }
+    to {
+        width: 8.5vw;
+    }
+}
+#textbox1 {
+    left: 5.5vw;
+    overflow: hidden;
+    width: 8.5vw;
+}
+#button-p1 {
+    position: relative;
+    left: 22vw;
 }
