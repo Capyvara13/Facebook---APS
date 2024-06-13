@@ -110,6 +110,11 @@ body {
     left: 0;
     border-radius: 1vw;
 }
+#button1 {
+    background-image: url(../img/facebook.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /*Overflow*/
 .overflowOn {
     animation: overflowOn 0.2s linear;
@@ -142,12 +147,92 @@ body {
     position: relative;
     left: 22vw;
 }
-#botao2 {
-    position: fixed;
-    top: 30vh;
-}
 /*Botão 2*/
 #textbox2 p {
     font-size: 3vh;
     color: #0866ff;
+    position: relative;
+    left: 22vw;
+}
+#textbox2 {
+    left: 5.5vw;
+    overflow: hidden;
+    width: 8.5vw;
+}
+#botao2 {
+    position: fixed;
+    top: 20vh;
+}
+#button2 {
+    background-image: url(../img/cel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Botão 3*/
+#textbox3 p {
+    font-size: 3vh;
+    color: #0866ff;
+    position: relative;
+    left: 22vw;
+}
+#textbox3 {
+    left: 5.5vw;
+    overflow: hidden;
+    width: 8.5vw;
+}
+#botao3 {
+    position: fixed;
+    top: 30vh;
+}
+#button3 {
+    background-image: url(../img/socie.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*Botão 4*/
+#textbox4 p {
+    font-size: 3vh;
+    color: #0866ff;
+    position: relative;
+    left: 22vw;
+}
+#textbox4 {
+    left: 5.5vw;
+    overflow: hidden;
+    width: 8.5vw;
+}
+#botao4 {
+    position: fixed;
+    top: 40vh;
+}
+#button4 {
+    background-image: url(../img/meta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Quinto botão*/
+#textbox5 p {
+    font-size: 3vh;
+    color: #0866ff;
+    position: relative;
+    left: 22vw;
+}
+#textbox5 {
+    left: 5.5vw;
+    overflow: hidden;
+    width: 8.5vw;
+}
+#botao5 {
+    position: fixed;
+    top: 50vh;
+}
+#button5 {
+    background-image: url(../img/interrrogação.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.textbox {
+    display: flex;
+    align-items: center;
 }
