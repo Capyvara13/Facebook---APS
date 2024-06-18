@@ -1,0 +1,33 @@
+.divText {
+    height: 35vh;
+    width: 30vw;
+    background-color: #d7e2f5;
+    border: #3f77d1 dashed;
+    padding: 1vw;
+}
+#divText4 {
+    position: absolute;
+    bottom: 3vh;
+    right: 9vw;
+}
+#divText3 {
+    position: absolute;
+    bottom: 3vh;
+    left: 24vw;
+}
+#divText2 {
+    position: absolute;
+    top: 15vh;
+    right: 9vw;
+}
+#divText1 {
+    position: absolute;
+    top: 15vh;
+    left: 24vw;
+}
+h1 {
+    color: rgb(13, 74, 153);
+    position: fixed;
+    top: 0;
+    right: 27vw;
+}
