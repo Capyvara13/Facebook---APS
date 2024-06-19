@@ -7,16 +7,16 @@
     width: 15vw;
     padding: 1vh;
     background-color: #ffffff;
-    left: 18vw;
+    left: 23.5vw;
     border: solid;
 }
 #fontes-box {
     background-color: #ffffff;
     height: 60vh;
-    width: 55vw;
+    width: 53vw;
     top: 10vh;
     position: relative;
-    right: 6vw;
+    right: 0vw;
     border: solid;
 }
 img {
