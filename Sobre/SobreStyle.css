@@ -1,0 +1,42 @@
+.text {
+    position: fixed;
+}
+#repons-box {
+    bottom: 6vh;
+    height: 18vh;
+    width: 15vw;
+    padding: 1vh;
+    background-color: #ffffff;
+    left: 18vw;
+    border: solid;
+}
+#fontes-box {
+    background-color: #ffffff;
+    height: 60vh;
+    width: 55vw;
+    top: 10vh;
+    position: relative;
+    right: 6vw;
+    border: solid;
+}
+img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+body {
+    background-color: #3c5a9a;
+}
+h1 {
+    color: #ffffff;
+    font-size: 6vh;
+    margin: 0;
+}
+a {
+    margin-left: 1vw;
+}
+h2 {
+    color: #3c5a9a;
+    font-size: 4vh;
+    margin: 1vh;
+}
