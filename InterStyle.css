@@ -4,3 +4,6 @@
 .divText p {
     font-size: 3vh;
 }
+.divText {
+    position: absolute;
+}
