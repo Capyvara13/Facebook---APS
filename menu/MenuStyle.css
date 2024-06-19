@@ -236,3 +236,6 @@ body {
     display: flex;
     align-items: center;
 }
+.toCenter {
+    background-position: center;
+}
