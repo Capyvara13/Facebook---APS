@@ -1,7 +1,12 @@
-.divText {
-    height: 35vh;
-    width: 30vw;
-    background-color: #d7e2f5;
-    border: #3f77d1 dashed;
-    padding: 1vw;
+#divText1 {
+    top: 12vh;
+    left: 35vw;
+    height: 65vh;
+    width: 20vw;
+}
+#divText2 {
+    top: 12vh;
+    right: 20vw;
+    height: 65vh;
+    width: 20vw;
 }
