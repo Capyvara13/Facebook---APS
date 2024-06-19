@@ -7,3 +7,8 @@
 .divText {
     position: absolute;
 }
+h1 {
+    color: rgb(13, 74, 153);
+    position: fixed;
+    top: 0;
+}

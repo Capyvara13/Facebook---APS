@@ -4,4 +4,100 @@
     background-color: #d7e2f5;
     border: #3f77d1 dashed;
     padding: 1vw;
+    position: fixed;
+}
+#divText1 {
+    visibility: visible;
+    top: 12vh;
+}
+#divText2 {
+    visibility: hidden;
+    height: 70vh;
+    width: 35vw;
+    top: 12vh;
+}
+#divText2 img {
+    height: 33vh;
+    width: 33vw;
+    margin-left: 1em;
+}
+#divText3 {
+    visibility: hidden;
+    top: 12vh;
+    height: 45vh;
+    width: 30vw;
+}
+#divText4 {
+    visibility: hidden;
+    top: 12vh;
+    height: 70vh;
+    width: 35vw;
+}
+#divText4 img {
+    height: 33vh;
+    width: 33vw;
+    margin-left: 1em;
+
+}
+/*Next Buttons*/
+.next {
+    position: fixed;
+    height: 4vh;
+    width: 6vw;
+    border-radius: 22px;
+    background-color: #6298f0;
+    border: solid;
+    bottom: 1vh;
+    transition: 0.2s linear;
+}
+.next:hover {
+    background-color: #3f77d1;
+    cursor: pointer;
+}
+#nextL {
+    left: 42vw;
+}
+#nextR {
+    left: 49vw;
+}
+/*Line*/
+.line {
+    background-color: #000000;
+    width: 2.5vw;
+    height: 0.4vh;
+    position: fixed;
+    margin-left: 1em;
+}
+#line1 {
+    transform: rotate(-20deg);
+    width: 1.3vw;   
+    left: 42vw;
+    bottom: 3.1vh;
+}
+#line2 {
+    margin-left: 2em;
+}
+#line3 {
+    transform: rotate(20deg);
+    width: 1.3vw;
+    left: 42vw;
+    bottom: 2vh;
+}
+#line6 {
+    transform: rotate(-20deg);
+    width: 1.3vw;
+    left: 52vw;
+    bottom: 2vh;
+}
+#line4 {
+    transform: rotate(20deg);
+    width: 1.3vw;
+    left: 52vw;
+    bottom: 3.1vh;
+}
+#pagInd{
+    position: fixed;
+    bottom: 3vh;
+    left: 46vw;
+    font-size: 3vh;
 }
