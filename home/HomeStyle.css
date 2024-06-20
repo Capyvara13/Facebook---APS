@@ -18,6 +18,14 @@ body {
 }
 h1 {
     color: #3c5a9a;
-    font-size: 7vh;
+    font-size: 10vh;
     margin: 0;
+}
+p {
+    font-size: 4.5vh;
+    height: 90vh;
+    width: 45vw;
+    position: fixed;
+    bottom: -7vh;
+    left: 30vw;
 }
