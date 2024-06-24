@@ -24,8 +24,9 @@ h1 {
 #texto-home {
     font-size: 4.5vh;
     height: 90vh;
-    width: 45vw;
+    width: 44vw;
     position: fixed;
     bottom: -7vh;
     left: 30vw;
+    margin-left: 1vw;
 }

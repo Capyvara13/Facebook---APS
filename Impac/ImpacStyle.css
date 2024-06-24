@@ -1,21 +1,21 @@
 #divText4 {
     position: absolute;
-    bottom: 3vh;
+    bottom: 2vh;
     right: 9vw;
 }
 #divText3 {
     position: absolute;
-    bottom: 3vh;
+    bottom: 2vh;
     left: 24vw;
 }
 #divText2 {
     position: absolute;
-    top: 15vh;
+    top: 10vh;
     right: 9vw;
 }
 #divText1 {
     position: absolute;
-    top: 15vh;
+    top: 10vh;
     left: 24vw;
 }
 h1 {
@@ -26,4 +26,8 @@ h1 {
 }
 .divText {
     border: #3f77d1 solid;
+}
+.divText {
+    height: 39vh;
+    width: 30vw;
 }
