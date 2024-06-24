@@ -1,12 +1,14 @@
 #divText1 {
+    
+    position: relative;
     top: 12vh;
-    left: 35vw;
     height: 65vh;
     width: 20vw;
+    margin: 2vw;
 }
 #divText2 {
+    position: relative;
     top: 12vh;
-    right: 20vw;
     height: 65vh;
     width: 20vw;
 }
