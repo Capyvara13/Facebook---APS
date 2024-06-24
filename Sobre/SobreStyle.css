@@ -1,24 +1,6 @@
 .text {
     position: fixed;
 }
-#repons-box {
-    bottom: 4vh;
-    height: 18vh;
-    width: 15vw;
-    padding: 1vh;
-    background-color: #1730359a;
-    left: 23.5vw;
-    border: solid;
-}
-#fontes-box {
-    background-color: #1730359a;
-    height: 65vh;
-    width: 63vw;
-    top: 7vh;
-    position: relative;
-    left: 5vw;
-    border: solid;
-}
 img {
     position: fixed;
     bottom: 0;
@@ -31,6 +13,7 @@ h1 {
     color: #ffffff;
     font-size: 6vh;
     margin: 0;
+    cursor: default;
 }
 a {
     font-size: 2vh;
@@ -44,4 +27,27 @@ h2 {
 }
 p {
     color: #ffffff;
+    font-size: 2vh;
+}
+/*Butão*/
+.textButton {
+    height: 4vh;
+    width: 6vw;
+    border: 0.2vw solid #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 3vw;
+    position: relative;
+    top: 7vh;
+    cursor: pointer;
+    margin: 1vh;
+}
+#textBox {
+    background-color: #1730359a;
+    height: 82vh;
+    width: 63vw;
+    top: 15vh;
+    position: fixed;
+    border: solid;
+    padding-left: 2vw;
 }
